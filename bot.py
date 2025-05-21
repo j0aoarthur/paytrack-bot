@@ -70,7 +70,7 @@ async def start_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> N
     user = update.effective_user
     await update.message.reply_html(
         rf"Olá, {user.mention_html()}! 👋"
-        "\nSou seu assistente para controle de dívidas."
+        "\nSou seu assistente para controle de dívidas PayTrack."
         "\n\nUse os comandos abaixo:"
         "\n/pessoas - 🧍 Gerenciar pessoas devedoras"
         "\n/emprestimos - 💸 Registrar novo empréstimo"
